@@ -34,11 +34,11 @@ beij = pygame.image.load(beij)  # 加载背景图
 # pygame.mixer.music.play()  # 开始播放
 
 
-font = pygame.font.SysFont("microsoftyaheimicrosoftyaheiui",30) # 设置字体格式和大小
+font = pygame.font.SysFont("arial",30) # 设置字体格式和大小
 name_font = font.render("Game Over",True,(122,0,0)) # 创建游戏结束提示Game Over
 restart_font = font.render("Restart",True,(0,0,122))
 tis_font = font.render("Press r to restart",True,(122,0,0)) # 创建游戏结束提示 Press r to restart
-font = pygame.font.SysFont("microsoftyaheimicrosoftyaheiui",20)
+font = pygame.font.SysFont("arial",20)
 tis1_font = font.render("Press r to restart",True,(122,0,0)) # 创建右上加提示 Press r to restart
 
 snake_colour = (255,122,122) # 蛇的颜色
